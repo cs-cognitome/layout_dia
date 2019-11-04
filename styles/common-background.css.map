@@ -1,0 +1,1 @@
+{"version":3,"sources":["common-background.scss"],"names":[],"mappings":"AAAA;EACE,6DAEwB,EAAA","file":"common-background.css","sourcesContent":[".common-background {\n  background: linear-gradient(125deg,\n  rgba(86,204,242,1) 70%,\n  rgba(229,229,229,1) 70%);\n}\n"]}
