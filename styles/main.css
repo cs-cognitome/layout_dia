@@ -120,8 +120,7 @@ h3 {
   background-position: center;
   width: 1146px;
   height: 640px;
-  bottom: 345px;
-  margin-bottom: 150px; }
+  bottom: 345px; }
   .slider__button {
     position: absolute;
     top: calc(50% - 5px);
@@ -178,5 +177,43 @@ h3 {
       letter-spacing: 2px;
       font-weight: 800;
       padding-left: 85px; }
+
+.section {
+  position: relative;
+  top: 400px; }
+
+.welcome {
+  left: 423px;
+  width: 100%;
+  margin-bottom: 100px; }
+  .welcome__heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px; }
+    .welcome__heading-image {
+      width: 21px;
+      height: 21px;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(28.57%, rgba(255, 255, 255, 0.25)), color-stop(42.86%, rgba(255, 255, 255, 0)));
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 28.57%, rgba(255, 255, 255, 0) 42.86%);
+      border: 1px solid #56ccf2;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-right: 16px; }
+    .welcome__heading-text {
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #56ccf2; }
+  .welcome__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #253757; }
 
 /*# sourceMappingURL=main.css.map */
