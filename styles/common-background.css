@@ -1,5 +1,12 @@
+/* colors */
+/* sizes */
+/* media */
 .common-background {
   background: linear-gradient(109deg, #56ccf2 82%, white 82%);
   height: 848px; }
+
+@media (max-width: 1024px) {
+  .common-background {
+    background: linear-gradient(115deg, #56ccf2 90%, white 90%); } }
 
 /*# sourceMappingURL=common-background.css.map */
