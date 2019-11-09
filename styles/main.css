@@ -1079,8 +1079,8 @@ body {
 
 .footer {
   background-color: white;
-  margin-top: 136px;
-  margin-left: 72px; }
+  margin-top: 135px;
+  margin-left: 50px; }
   .footer__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1128,5 +1128,21 @@ body {
       transition: color 0.3s ease; }
       .footer__navigation-link:hover {
         color: #fcc304; }
+
+@media (max-width: 1024px) {
+  .footer__container {
+    position: relative;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .footer__designers {
+    position: absolute;
+    top: 60px;
+    margin-bottom: 50px; } }
 
 /*# sourceMappingURL=main.css.map */
